@@ -1,9 +1,8 @@
-# 第三方依赖
+# 第三方组件与来源
 
-本仓库没有捆绑以下项目的源代码、权重、SDK 或二进制。依赖由使用者另行获取并遵守各自许可。
+- `src/sbg_ros_driver` 及其 `external/sbgECom` 属于原工程集成的 SBG 组件；保留目录中的 MIT 许可及各源码版权声明。
+- `src/mainwindow/src/qfi` 为 QFlightInstruments 仪表组件，源码保留 Marek M. Cel 的许可和版权声明。
+- Qt / ROS 相关界面资源按原工程保留；这些组件和资源不宣称为项目维护者独立创作。
+- Qt、ROS、OpenCV、yaml-cpp 等环境依赖由使用者按各自许可安装。
 
-- [Qt](https://doc.qt.io/qt-5/)
-- [ROS 1](https://github.com/ros/ros_comm)
-- [OpenCV](https://opencv.org/)
-
-本清单不为任何未分发的原始工程材料授予许可。
+本文件说明来源边界，不替代原文件中的许可证，也不为整个仓库追溯性添加统一的新许可证。

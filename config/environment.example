@@ -1,6 +1,0 @@
-# Documentation template; the demo has no device or network side effects.
-# Integration applications must read and validate these values themselves.
-VIDEO_URI=<local-video-path-or-stream-uri>
-SERIAL_DEVICE=<serial-device>
-OUTPUT_DIRECTORY=<session-directory>
-TIMESTAMP_DOMAIN=<shared-clock-domain>
